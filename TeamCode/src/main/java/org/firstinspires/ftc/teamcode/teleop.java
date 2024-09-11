@@ -75,7 +75,7 @@ public class teleop extends OpMode {
     public void loop() {
 
 
-        double axial   = gamepad1.left_stick_x;  // Note: pushing stick forward gives negative value
+        double axial   = gamepad1.left_stick_x;  //Note: pushing stick forward gives negative value
         double lateral =  gamepad1.right_stick_y;
         double yaw     =  gamepad1.left_stick_y;
 
